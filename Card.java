@@ -4,16 +4,19 @@ public class Card {
 	private String value;
 	private int points;
 	
-	public String getSuit {
+	public String getSuit() {
 		return suit;
 	}
 	
-	public String getValue {
+	public String getValue() {
 		return value;
 	}
 	
-	public int getPoints {
+	public int getPoints() {
 		return points;
 	}
 	
+	public Card(String[] s, String[] v, int p) {
+		
+	}
 }
