@@ -1,22 +1,25 @@
 public class Card {
 	
-	private String suit;
-	private String value;
-	private int points;
+	private String suit;	// Hearts, diamond etc
+	private String value;	// 2-10, J, Q, K, A
+	private int points;		// 1-14
 	
-	public String getSuit() {
-		return suit;
+	/**
+	 * Constructor for a Card.
+	 *
+	 * @param s		Suit of card.
+	 * @param v		Value of card.
+	 * @param p		Point value of card.
+	 */
+	public Card(String s, String v, int p) {
+		suit = s;
+		value = v;
+		points = p;
 	}
 	
-	public String getValue() {
-		return value;
-	}
+	public String getSuit() { return suit; }
 	
-	public int getPoints() {
-		return points;
-	}
+	public String getValue() { return value; }
 	
-	public Card(String[] s, String[] v, int p) {
-		
-	}
+	public int getPoints() { return points; }
 }
