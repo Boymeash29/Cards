@@ -57,7 +57,7 @@ public class Blackjack {
 	private boolean placeBet() {
 		while (true) {
 			System.out.print("\nBalance: $" + balance + ". Enter your bet (1-" + balance + ") or q to quit: $");	// Show the user their balance and ask for a bet
-			String line = input.nextLine().;
+			String line = input.nextLine();
 			// Return false so the game loop can stop without playing a round
 			if (line.equalsIgnoreCase("q")) {
 				return false;
